@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="clock-container">
+            <span class="selected-mode">Clock</span>
+            <div class="clock">
+                <div class="clock-hours"></div>
+                <div class="clock-minutes"></div>
+                <div class="clock-seconds"></div>
+                <div class="middle-of-clock"></div>
+            </div>
+            <div class="digital-display">
+                <div class="digital-hours digital-date"></div>
+                <div class="digital-minutes digital-date"></div>
+                <div class="digital-seconds digital-date"></div>
+            </div>
+            <div class="options">
+                <div class="clock-option option">Clock</div>
+                <div class="timer-option option">Timer</div>
+                <div class="alarm-option option">Alarm</div>
+            </div>
+        </div>
+        <div class="alarm-set">
+            <div class="inputs-section">
+                <input class="hour-input" type="number">
+                <input class="minutes-input" type="number">
+                <input class="seconds-input" type="number">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
